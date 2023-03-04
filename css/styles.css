@@ -75,7 +75,7 @@ body {
     margin: 4em;
 }
 
-.secundaria__imagem{
+.secundaria__imagem {
     width: 80%;
 }
 
@@ -90,7 +90,59 @@ body {
     padding-right: 5em;
 }
 
-.secundaria_botao{
+.secundaria_botao {
     margin-top: 1em;
     display: inline-block;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 68px;
+    margin: 5em 0;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.dispositivos__texto {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 3em;
+}
+
+.lista__link a {
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
+
+.lista__link a:active {
+    color: yellow;
+}
+
+.rodape__texto {
+    font-size: 14px;
+    color: #C0C0C0;
+    margin: 2em;
 }
